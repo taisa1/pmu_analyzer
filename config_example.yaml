@@ -2,6 +2,6 @@ events:
   - instructions
   - bus-cycles
 max_logs_num:
-  pmu: 400
-  elapsed_time: 2000
+  pmu: 10000
+  elapsed_time: 100000
 log_path: /home/sykwer
