@@ -13,4 +13,5 @@ namespace pmu_analyzer {
   void ELAPSED_TIME_CLOSE(std::string &session_name);
   void VAR_LOG_SINGLE(const std::string &session_name, const std::string &variable_name, const double& data);
   void VAR_LOG_VEC(const std::string &session_name, const std::string &variable_name, const std::vector<double> &data);
+  void VAR_LOG_STRING(const std::string &session_name, const std::string &variable_name, const std::vector<std::string> &data);
 }
